@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Tu Página Web</title>
+    <!-- Incluye Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- JavaScript de Bootstrap (opcional, pero necesario para ciertas funcionalidades de Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JQUERY para el boton hamburguesa -->
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <div class="container-fluid">
+        <!-- Header -->
+        <header class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #006494;">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="https://i.ibb.co/7rnwrz4/logo-alta.png" alt="Logotipo" height="30">
+                </a>
+                <!-- Botón de hamburguesa para dispositivos móviles -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menú de Navegación -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link btn" data-bs-toggle="modal"
+                                data-bs-target="#contactModal">Contacto</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link btn" data-bs-toggle="modal" data-bs-target="#aCercaDe">A cerca
+                                de</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+        <!-- Contenido de la Página -->
+        <div class="row flex-grow-1">
+
+            <div class="row flex-md-row flex-column-reverse">
+
+                <div class="col-md-8 order-md-1 order-2">
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <!-- Accordion Items -->
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    1. "El Sueño Revelador: La Promesa de Grandeza"
+                                </button>
+
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">José, el undécimo hijo de Jacob y Raquel, nace en
+                                    Canaán.
+                                    Desde
+                                    joven, experimenta sueños que indican un futuro destacado. Estos sueños, a pesar
+                                    de
+                                    causar celos entre sus hermanos, señalan un propósito divino para su vida.</div>
+
+                                <!-- Imagen centrada y responsiva -->
+                                <img src="https://i.ibb.co/kGWcJHt/01.png" class="img-fluid mx-auto mt-3"
+                                    alt="Imagen Ejemplo">
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    2. "La Túnica de Colores: Símbolo de la Elección Divina"
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">La relación especial de José con su padre se simboliza
+                                    con
+                                    una
+                                    túnica de colores. Esta prenda se convierte en el catalizador de la envidia de
+                                    sus
+                                    hermanos, llevándolo a ser vendido como esclavo en Egipto. A pesar de este giro,
+                                    la
+                                    mano
+                                    divina sigue presente en su vida.</div>
+
+                                <!-- Imagen centrada y responsiva -->
+                                <img src="https://i.ibb.co/Vthdxm2/02.png" class="img-fluid mx-auto mt-3"
+                                    alt="Imagen Ejemplo">
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    3. "Desde la Servidumbre hasta la Virtud: La Prueba en Casa de Potifar"
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">A pesar de las adversidades, la virtud de José lo lleva
+                                    a
+                                    destacarse en la casa de Potifar, aunque enfrenta una prueba de integridad
+                                    cuando es
+                                    falsamente acusado. A través de esta experiencia, José demuestra su fe y
+                                    confianza
+                                    en
+                                    Dios.</div>
+
+                                <!-- Imagen centrada y responsiva -->
+                                <img src="https://i.ibb.co/BTHt1FC/03.png" class="img-fluid mx-auto mt-3"
+                                    alt="Imagen Ejemplo">
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    4. "Interpretando Sueños: La Mano Providencial de Dios"
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">En la prisión, José utiliza su don de interpretación de
+                                    sueños
+                                    para impactar las vidas de sus compañeros. Este talento lo destaca ante el
+                                    faraón,
+                                    quien
+                                    busca ayuda para comprender sus propios sueños enigmáticos. La intervención
+                                    divina
+                                    lo
+                                    lleva a la cúspide del poder en Egipto.</div>
+
+                                <!-- Imagen centrada y responsiva -->
+                                <img src="https://i.ibb.co/gJfvm3V/04.png" class="img-fluid mx-auto mt-3"
+                                    alt="Imagen Ejemplo">
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    5. "De Esclavo a Gobernador: El Plan Divino Revelado"
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">José, ahora gobernador, administra sabiamente durante
+                                    los
+                                    años
+                                    de abundancia y prepara a Egipto para la hambruna predicha en los sueños del
+                                    faraón.
+                                    Este ascenso, lejos de ser obra del azar, revela el cumplimiento del plan divino
+                                    para la
+                                    vida de José.</div>
+
+                                <!-- Imagen centrada y responsiva -->
+                                <img src="https://i.ibb.co/frKsJzj/05.png" class="img-fluid mx-auto mt-3"
+                                    alt="Imagen Ejemplo">
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                    aria-controls="flush-collapseSix">
+                                    6. "La Gracia Transformadora: Reconciliación Familiar"
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">El encuentro con sus hermanos en Egipto ofrece a José la
+                                    oportunidad de venganza, pero en cambio, elige el perdón y la reconciliación.
+                                    Este
+                                    acto
+                                    de gracia transformadora ilustra la obra redentora de Dios y la capacidad de
+                                    superar
+                                    las
+                                    heridas del pasado.</div>
+
+                                <!-- Imagen centrada y responsiva -->
+                                <img src="https://i.ibb.co/NymTLWw/06.png" class="img-fluid mx-auto mt-3"
+                                    alt="Imagen Ejemplo">
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                                    aria-controls="flush-collapseSeven">
+                                    7. "La Bendición Final: Herencia Espiritual y Descanso Eterno"
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Al final de su vida, José bendice a sus hermanos y
+                                    asegura
+                                    que
+                                    Dios los guiará de regreso a la tierra prometida. Su legado trasciende la mera
+                                    prosperidad material, dejando una herencia espiritual y un testimonio de la
+                                    fidelidad
+                                    divina. Tras su muerte, sus restos son llevados de vuelta a Canaán, marcando el
+                                    final de
+                                    una vida llena de propósito y redención.</div>
+
+                                <!-- Imagen centrada y responsiva -->
+                                <img src="https://i.ibb.co/QFnQv7Y/07.png" class="img-fluid mx-auto mt-3"
+                                    alt="Imagen Ejemplo">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sección de Comentarios -->
+                    <div class="container mt-5">
+                        <h4>Comentarios</h4>
+                        <form id="commentForm">
+                            <div class="mb-3">
+                                <label for="userName" class="form-label">Nombre:</label>
+                                <input type="text" class="form-control" id="userName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="commentText" class="form-label">Comentario:</label>
+                                <textarea class="form-control" id="commentText" rows="2" required></textarea>
+                            </div>
+                            <button type="button" class="btn btn-primary" onclick="submitComment()">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-4 order-md-2 order-1">
+                    <!-- Lista de Comentarios -->
+                    <div class="container mt-3" id="commentList">
+                        <!-- Los comentarios se agregarán aquí dinámicamente -->
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Modal de Contacto -->
+        <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">Información de Contacto</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--información -->
+                        <p style="text-align: center;">Elmer Pinaya: 73782281</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal de Acerca de -->
+        <div class="modal fade" id="aCercaDe" tabindex="-1" aria-labelledby="aCercaDeLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="aCercaDeLabel">Version:</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!--información -->
+                        <p style="text-align: center;">v 1.00</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer py-3 fixed-bottom" style="background-color: #006494;">
+        <div class="container text-center">
+            <span style="color: white;">© 2023 Página Web - Todos los derechos reservados.</span>
+        </div>
+    </footer>
+
+    <script src="indexDB.js"></script>
+
+
+    <!-- para manejo de acordeones expandidos -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Obtén todos los botones del acordeón
+            const accordionButtons = document.querySelectorAll('.accordion-button');
+
+            // Agrega un evento de clic a cada botón
+            accordionButtons.forEach(function (button) {
+                button.addEventListener('click', function () {
+                    // Obtiene el atributo data-bs-target para determinar el ID del elemento a expandir/colapsar
+                    const targetId = button.getAttribute('data-bs-target');
+
+                    // Obtiene el elemento correspondiente al ID
+                    const targetElement = document.querySelector(targetId);
+
+                    // Cierra todos los demás acordeones antes de abrir el seleccionado
+                    accordionButtons.forEach(function (otherButton) {
+                        if (otherButton !== button) {
+                            const otherTargetId = otherButton.getAttribute('data-bs-target');
+                            const otherTargetElement = document.querySelector(otherTargetId);
+                            if (otherTargetElement) {
+                                otherTargetElement.style.height = null; // Restablece la altura
+                            }
+                        }
+                    });
+
+                    // Verifica si el elemento existe y ajusta la altura según sea necesario
+                    if (targetElement) {
+                        const isCollapsed = targetElement.style.height === '0px' || targetElement.style.height === '';
+                        targetElement.style.height = isCollapsed ? targetElement.scrollHeight + 'px' : '0px';
+                    }
+                });
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+body {
+    background-color: #f8f9fa;
+    /* Color de fondo */
+    color: #343a40;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+header {
+    border-bottom: 1px solid #dee2e6;
+    /* Línea separadora del header */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #007bff;
+    /* Color del texto del logotipo y del menú */
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #0056b3;
+    /* Color del texto al pasar el ratón sobre el logotipo o el menú */
+}
+
+footer.footer {
+    background-color: #006494;
+    height: 40px;
+}
+
+/* Color del fondo del header */
+header.navbar {
+    background-color: #006494;
+}
+
+/* Color del texto y enlaces del menú */
+header.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+/* Color del texto cuando se pasa el mouse sobre el enlace */
+header.navbar .navbar-nav .nav-link:hover {
+    color: #ffc107;
+    
+}
+
+/* Color del texto del enlace activo (página actual) */
+header.navbar .navbar-nav .nav-item.active .nav-link {
+    color: #ffc107;
+    
+}
+
+/* Estilo del botón de la hamburguesa (si estás usando uno) */
+header.navbar .navbar-toggler-icon {
+    background-color: white;
+    
+}
+
+/* Estilo del menú desplegable (si estás usando uno) */
+header.navbar .navbar-collapse {
+    background-color: #006494;
+    
+}
+
+/* Estilo para las imágenes dentro de accordion-body */
+.accordion-collapse.collapse img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+/*ESTILOS PARA LOS ACCORDIONES*/
+.accordion-item {
+    background-color: #17c3b2a8;
+}
+
+.accordion-item .accordion-button {
+    background-color: #17c3b2;
+}
+
+/* Estilo del área del botón del accordion cuando está activo o se pasa el ratón */
+.accordion-item .accordion-button:not(.collapsed):hover,
+.accordion-item .accordion-button:focus {
+    color: #ffffff;
+    /* Color del texto del botón en estado activo o al pasar el ratón */
+    background-color: #17C3B2;
+    /* Color de fondo del botón en estado activo o al pasar el ratón */
+}
